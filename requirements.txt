@@ -1,7 +1,9 @@
+args==0.1.0
 backports-abc==0.4
 backports.shutil-get-terminal-size==1.0.0
 backports.ssl-match-hostname==3.5.0.1
 certifi==2016.8.31
+clint==0.5.1
 configparser==3.5.0
 cycler==0.10.0
 decorator==4.0.10
@@ -18,6 +20,7 @@ jupyter-contrib-core==0.3.0
 jupyter-contrib-nbextensions==0.2.0
 jupyter-core==4.2.0
 jupyter-nbextensions-configurator==0.2.2
+jupyterlab==0.3.0
 MarkupSafe==0.23
 matplotlib==1.5.1
 mistune==0.7.3
