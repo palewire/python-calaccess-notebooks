@@ -89,3 +89,5 @@ ENV/
 .ropeproject
 
 *.csv
+
+settings_local.py
