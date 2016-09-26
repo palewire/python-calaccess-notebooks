@@ -1,3 +1,4 @@
+agate
 args==0.1.0
 backports-abc==0.4
 backports.shutil-get-terminal-size==1.0.0
