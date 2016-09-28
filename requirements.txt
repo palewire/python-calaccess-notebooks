@@ -53,3 +53,4 @@ terminado==0.6
 tornado==4.4.1
 traitlets==4.3.0
 wcwidth==0.1.7
+-e git+https://github.com/mccahill/ipython-sql.git@HEAD#egg=ipython-sql
