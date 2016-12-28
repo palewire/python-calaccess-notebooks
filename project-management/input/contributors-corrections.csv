@@ -1,71 +1,74 @@
-login,corrected_company,corrected_location,corrected_name
-absolutevan,Arizona Center for Investigative Reporting,"Phoenix, AZ",Evan Wyloge
-acoreynews,Arizona Republic,,
-amzam,Texas Tribune,"Austin, TX",Amanda Zamora
-anabecker,Wall Street Journal,"New York, NY",
-anniedaniel,Texas Tribune,,
-anthonydb,DocumentCloud,,
-aquintero4354,Los Angeles Times,"Los Angeles, CA",Angie Quintero
-armendariz,New York Times,"New York, NY",Agustin Armendariz
-ashwu,Northwestern,"Evanston, IL",
-bdin,Northwestern,"Evanston, IL",
-burtherman,Hacks/Hackers,,
-chagan,Center for Tax and Budget Accountability,,
-charlex,Los Angeles Times,,
-danhillreports,Austin American-Statesman,"Austin, TX",
-dcloud,Sunlight Foundation,,
-desireedesario,USC,"Los Angeles, CA",Desiree Desario
-duner,Northwestern,"Evanston, IL",Alex Duner
-ebonymarieb,Los Angeles Times,"Los Angeles, CA",Ebony Bailey
-elainewong,CBC,,
-fagerlise,Lofot Posten,,
-fcoel,La Nacion,"Buenos Aires, Argentina",Flor Coelho
-frnsys,Mozilla OpenNews,"New York, NY",
-gordonje,California Civic Data Coalition,,
-hancush,Datamade,,
-hunterowens,City of Los Angeles,,
-jennbrandel,Hearken,"Chicago, IL",Jennifer Brandel
-jenny8lee,Plympton,"New York, NY",
-jlagetz,Center for Investigative Reporting,,
-joemfox,Los Angeles Times,,
-joshuarrrr,Freelancer,"Tucson, Arizona",Josh Romero
-julia67,Institute for Nonprofit News,,
-karissa,Dat Project,,
-latams,Associated Press,"Washington, DC",Tami Abdollah
-lehrennyt,New York Times,"New York, NY",Andrew Lehren
-lindsayyoung,18F,,
-livlab,Mozilla OpenNews,,
-macdiva,New York Times,"New York, NY",
-maloym,Los Angeles Times,"Los Angeles, CA",Maloy Moore
-mattdatajourno,Newsday,"New York, NY",Matt Clark
-melissaleu,Los Angeles Times,"Los Angeles, CA",Melissa Leu
-merbroussard,New York University,"New York, NY",Meredith Broussard
-mhkeller,Bloomberg,,
-miguelpaz,Poderopedia,,
-mijebner,SembraMedia,"Buenos Aires, Argentina",Mijal Iastrebner
-mjenner,University of Missouri,"Columbia, MO",Mike Jenner
-momiperalta,La Nacion,"Buenos Aires, Argentina",Momi Peralta Ramos
-nbedi,Tampa Bay Times,"Tampa, FL",
-ndhapple,Austin American-Statesman,,
-nikkiusher,George Washington University,"Washington, DC",Nikki Usher Layser
-priyakkumar,Los Angeles Times,"Los Angeles, CA",
-roncampbell,NBC,,
-saraschnadt,Freelancer,"San Francisco, CA",Sara Schnadt
-taraadiseshan,Mozilla OpenNews,,
-tbone,Los Angeles Times,"Burbank, CA",Thomas Suh Lauder
-tchristianmiller,ProPublica,"Berkeley, CA",T. Christian Miller
-underthecurve,Mozilla OpenNews,"Los Angeles, CA",
-vigneshramachandran,Stanford,,
-wcraft,American Public Media,"Oakland, CA",Will Craft
-yanofsky,Quartz,"Los Angeles, CA",David Yanofsky
-mcgarvey,Los Angeles Times,"Long Beach, CA",
-amandabee,BuzzFeed,,
-achavez,Dallas Morning News,"Dallas, TX",
-sourcedouglas,Sourcefabric,"Prague, Czech Republic",
-danmit,Uber,"Washington, DC",Danielle Mitchell
-kissane,Mozilla OpenNews,"New York, NY",
-mikereicher,Tennesseean,"Nashville, TN",Mike Reicher
-lengsj,Foreign Policy,"Washington, DC",Shujie Leng
-nicolewest,Twitter,"San Francisco, CA",Nicole West
-lauragomezrod,Arizona Republic,"Phoenix, AZ",Laura Gomez Rodriguez
-annkiha,Fremover,"Narvik, Norway",Ann-Kristin Hanssen 
+login,corrected_company,corrected_location,corrected_name,corrected_email
+absolutevan,Arizona Center for Investigative Reporting,"Phoenix, AZ",Evan Wyloge,evan.wyloge@gmail.com
+acoreynews,Arizona Republic,,,
+amzam,Texas Tribune,"Austin, TX",Amanda Zamora,amandazamora@gmail.com
+anabecker,Wall Street Journal,"New York, NY",,
+anniedaniel,Texas Tribune,,,
+anthonydb,DocumentCloud,,,
+aquintero4354,Los Angeles Times,"Los Angeles, CA",Angie Quintero,
+armendariz,New York Times,"New York, NY",Agustin Armendariz,
+ashwu,Northwestern,"Evanston, IL",,
+bdin,Northwestern,"Evanston, IL",,
+burtherman,Hacks/Hackers,,,
+chagan,Center for Tax and Budget Accountability,,,
+charlex,Los Angeles Times,,,
+danhillreports,Austin American-Statesman,"Austin, TX",,
+dcloud,Sunlight Foundation,,,
+desireedesario,USC,"Los Angeles, CA",Desiree Desario,
+duner,Northwestern,"Evanston, IL",Alex Duner,
+ebonymarieb,Los Angeles Times,"Los Angeles, CA",Ebony Bailey,
+elainewong,CBC,,,
+fagerlise,Lofot Posten,"Lofoten, Norway",Lise Fagerbakk,
+fcoel,La Nacion,"Buenos Aires, Argentina",Flor Coelho,
+frnsys,Mozilla OpenNews,"New York, NY",,
+gordonje,California Civic Data Coalition,,,
+hancush,Datamade,,,
+hunterowens,City of Los Angeles,,,
+jennbrandel,Hearken,"Chicago, IL",Jennifer Brandel,
+jenny8lee,Plympton,"New York, NY",,
+jlagetz,Center for Investigative Reporting,"Berkeley, CA",,
+joemfox,Los Angeles Times,,,
+joshuarrrr,Freelancer,"Tucson, Arizona",Josh Romero,
+julia67,Institute for Nonprofit News,,,
+karissa,Dat Project,,,
+latams,Associated Press,"Washington, DC",Tami Abdollah,
+lehrennyt,New York Times,"New York, NY",Andrew Lehren,
+lindsayyoung,18F,,,
+livlab,Mozilla OpenNews,,,
+macdiva,New York Times,"New York, NY",,
+maloym,Los Angeles Times,"Los Angeles, CA",Maloy Moore,
+mattdatajourno,Newsday,"New York, NY",Matt Clark,
+melissaleu,Los Angeles Times,"Los Angeles, CA",Melissa Leu,
+merbroussard,New York University,"New York, NY",Meredith Broussard,
+mhkeller,Bloomberg,,,
+miguelpaz,Poderopedia,,,
+mijebner,SembraMedia,"Buenos Aires, Argentina",Mijal Iastrebner,
+mjenner,University of Missouri,"Columbia, MO",Mike Jenner,
+momiperalta,La Nacion,"Buenos Aires, Argentina",Momi Peralta Ramos,
+nbedi,Tampa Bay Times,"Tampa, FL",,
+ndhapple,Austin American-Statesman,,,
+nikkiusher,George Washington University,"Washington, DC",Nikki Usher Layser,
+priyakkumar,Los Angeles Times,"Los Angeles, CA",,
+roncampbell,NBC,,,
+saraschnadt,Freelancer,"San Francisco, CA",Sara Schnadt,
+taraadiseshan,Mozilla OpenNews,"New York, NY",,
+tbone,Los Angeles Times,"Burbank, CA",Thomas Suh Lauder,
+tchristianmiller,ProPublica,"Berkeley, CA",T. Christian Miller,
+underthecurve,Mozilla OpenNews,"Los Angeles, CA",,
+vigneshramachandran,Stanford,,,
+wcraft,American Public Media,"Oakland, CA",Will Craft,
+yanofsky,Quartz,"Los Angeles, CA",David Yanofsky,
+mcgarvey,Los Angeles Times,"Long Beach, CA",,
+amandabee,BuzzFeed,,,
+achavez,Dallas Morning News,"Dallas, TX",,
+sourcedouglas,Sourcefabric,"Prague, Czech Republic",,
+danmit,Uber,"Washington, DC",Danielle Mitchell,
+kissane,Mozilla OpenNews,"New York, NY",,
+mikereicher,Tennesseean,"Nashville, TN",Mike Reicher,
+lengsj,Foreign Policy,"Washington, DC",Shujie Leng,
+nicolewest,Twitter,"San Francisco, CA",Nicole West,
+lauragomezrod,Arizona Republic,"Phoenix, AZ",Laura Gomez Rodriguez,
+annkiha,Fremover,"Narvik, Norway",Ann-Kristin Hanssen ,
+rkiddy,Ganymede Resources,,,
+benlk,,"Columbus, OH",,
+anabranch,,,,wac.chambers@gmail.com
