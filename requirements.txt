@@ -20,6 +20,7 @@ django-extensions==1.7.5
 django-postgres-copy==0.1.0
 entrypoints==0.2.2
 enum34==1.1.6
+folium==0.2.1
 functools32==3.2.3.post2
 hurry.filesize==0.9
 ipykernel==4.5.0
@@ -77,3 +78,4 @@ traitlets==4.3.0
 Unidecode==0.4.19
 wcwidth==0.1.7
 xlrd==1.0.0
+yolk==0.4.3
