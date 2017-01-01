@@ -67,6 +67,9 @@ PyYAML==3.12
 pyzmq==15.4.0
 regex==2016.11.21
 requests==2.11.1
+scipy==0.18.1
+seaborn==0.7.1
+selenium==3.0.2
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
