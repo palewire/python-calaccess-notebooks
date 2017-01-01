@@ -1,0 +1,1464 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_90da4f3e26ec48c3af468bb5d27c8f19 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_90da4f3e26ec48c3af468bb5d27c8f19" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_90da4f3e26ec48c3af468bb5d27c8f19 = L.map('map_90da4f3e26ec48c3af468bb5d27c8f19', {
+                                           center:[35,-102],
+                                           zoom: 2,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_9f9f682254ec4776b51ad94581e36fa1 = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Map tiles by <a href="http://www.mapbox.com/m">Mapbox</a> Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+
+        
+        
+            
+
+            var circle_marker_827bbf6be5ab4d2aab7c44067349e941 = L.circle(
+                [34.0522342,-118.2436849],
+                300000.0,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_9440257fd47742ef97d25acafc4c8ec8 = L.popup({maxWidth: '300'});
+
+            
+                var html_711c4604eaa94b078c9174e78e4386ee = $('         <div id="html_711c4604eaa94b078c9174e78e4386ee"                 style="width: 100.0%; height: 100.0%;">                 Los Angeles, CA</div>                 ')[0];
+                popup_9440257fd47742ef97d25acafc4c8ec8.setContent(html_711c4604eaa94b078c9174e78e4386ee);
+            
+
+            circle_marker_827bbf6be5ab4d2aab7c44067349e941.bindPopup(popup_9440257fd47742ef97d25acafc4c8ec8);
+
+            
+        
+        
+            
+
+            var circle_marker_0564f086de2145ed96b9b0fc7168afc8 = L.circle(
+                [38.9517053,-92.3340724],
+                119207.912136,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_b9e72c911f9b47779c0af10578ae1bcc = L.popup({maxWidth: '300'});
+
+            
+                var html_d652933e561549269e5feac6cf8ce82d = $('         <div id="html_d652933e561549269e5feac6cf8ce82d"                 style="width: 100.0%; height: 100.0%;">                 Columbia, MO</div>                 ')[0];
+                popup_b9e72c911f9b47779c0af10578ae1bcc.setContent(html_d652933e561549269e5feac6cf8ce82d);
+            
+
+            circle_marker_0564f086de2145ed96b9b0fc7168afc8.bindPopup(popup_b9e72c911f9b47779c0af10578ae1bcc);
+
+            
+        
+        
+            
+
+            var circle_marker_e631254dcf4e4b19bbdb7779bb2e1c79 = L.circle(
+                [38.9071923,-77.0368707],
+                266556.994992,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_ad45fcbb5e65488c94ff46c6b3b0d1de = L.popup({maxWidth: '300'});
+
+            
+                var html_9c3eb82c85af4ba09ebe4b88ddcdca80 = $('         <div id="html_9c3eb82c85af4ba09ebe4b88ddcdca80"                 style="width: 100.0%; height: 100.0%;">                 Washington, DC</div>                 ')[0];
+                popup_ad45fcbb5e65488c94ff46c6b3b0d1de.setContent(html_9c3eb82c85af4ba09ebe4b88ddcdca80);
+            
+
+            circle_marker_e631254dcf4e4b19bbdb7779bb2e1c79.bindPopup(popup_ad45fcbb5e65488c94ff46c6b3b0d1de);
+
+            
+        
+        
+            
+
+            var circle_marker_2812297b32e64ad3b4d41048057346b9 = L.circle(
+                [37.8715926,-122.272747],
+                137649.440322,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_1f855f2bfda24c9681dfa9f4536855ca = L.popup({maxWidth: '300'});
+
+            
+                var html_5e40f906afb1480b963cf6f3c1347038 = $('         <div id="html_5e40f906afb1480b963cf6f3c1347038"                 style="width: 100.0%; height: 100.0%;">                 Berkeley, CA</div>                 ')[0];
+                popup_1f855f2bfda24c9681dfa9f4536855ca.setContent(html_5e40f906afb1480b963cf6f3c1347038);
+            
+
+            circle_marker_2812297b32e64ad3b4d41048057346b9.bindPopup(popup_1f855f2bfda24c9681dfa9f4536855ca);
+
+            
+        
+        
+            
+
+            var circle_marker_dd8183c451154d0791856c74027b714c = L.circle(
+                [40.7127837,-74.0059413],
+                300000.0,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_5e8e090656604344b98607fc36a1ffca = L.popup({maxWidth: '300'});
+
+            
+                var html_09b01777f3a94b84a36e5482cc07d101 = $('         <div id="html_09b01777f3a94b84a36e5482cc07d101"                 style="width: 100.0%; height: 100.0%;">                 New York, NY</div>                 ')[0];
+                popup_5e8e090656604344b98607fc36a1ffca.setContent(html_09b01777f3a94b84a36e5482cc07d101);
+            
+
+            circle_marker_dd8183c451154d0791856c74027b714c.bindPopup(popup_5e8e090656604344b98607fc36a1ffca);
+
+            
+        
+        
+            
+
+            var circle_marker_22312910a51441bdbe7ffeb5778b2cac = L.circle(
+                [41.8781136,-87.6297982],
+                168585.446085,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_320fa7eac330460fb4c87f47f5a1e279 = L.popup({maxWidth: '300'});
+
+            
+                var html_23e1959770f046379c4b16d4979ac545 = $('         <div id="html_23e1959770f046379c4b16d4979ac545"                 style="width: 100.0%; height: 100.0%;">                 Chicago, IL</div>                 ')[0];
+                popup_320fa7eac330460fb4c87f47f5a1e279.setContent(html_23e1959770f046379c4b16d4979ac545);
+            
+
+            circle_marker_22312910a51441bdbe7ffeb5778b2cac.bindPopup(popup_320fa7eac330460fb4c87f47f5a1e279);
+
+            
+        
+        
+            
+
+            var circle_marker_60f3e98f2fa146bab14f2c56419663b7 = L.circle(
+                [-34.6036844,-58.3815591],
+                153896.752813,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_2a27a9c5ca584b1b9567da56aa0c138b = L.popup({maxWidth: '300'});
+
+            
+                var html_d09fea533d7942cfaee4fac75073b1e0 = $('         <div id="html_d09fea533d7942cfaee4fac75073b1e0"                 style="width: 100.0%; height: 100.0%;">                 Buenos Aires, Argentina</div>                 ')[0];
+                popup_2a27a9c5ca584b1b9567da56aa0c138b.setContent(html_d09fea533d7942cfaee4fac75073b1e0);
+            
+
+            circle_marker_60f3e98f2fa146bab14f2c56419663b7.bindPopup(popup_2a27a9c5ca584b1b9567da56aa0c138b);
+
+            
+        
+        
+            
+
+            var circle_marker_e49fe54f734f47d1b8c20afc6448851c = L.circle(
+                [37.7749295,-122.4194155],
+                194665.705357,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_719ad44232d747948460e7cfd1d6184a = L.popup({maxWidth: '300'});
+
+            
+                var html_32fd6399bb0f4c288f2b561bf23f0d92 = $('         <div id="html_32fd6399bb0f4c288f2b561bf23f0d92"                 style="width: 100.0%; height: 100.0%;">                 San Francisco, CA</div>                 ')[0];
+                popup_719ad44232d747948460e7cfd1d6184a.setContent(html_32fd6399bb0f4c288f2b561bf23f0d92);
+            
+
+            circle_marker_e49fe54f734f47d1b8c20afc6448851c.bindPopup(popup_719ad44232d747948460e7cfd1d6184a);
+
+            
+        
+        
+            
+
+            var circle_marker_5dfb3a4f54c64b28a17cee02841c9e56 = L.circle(
+                [32.715738,-117.1610838],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_f12cd58900c443f885a3613a450b3c91 = L.popup({maxWidth: '300'});
+
+            
+                var html_632b2920c4d446a2ae01c9127d44f126 = $('         <div id="html_632b2920c4d446a2ae01c9127d44f126"                 style="width: 100.0%; height: 100.0%;">                 San Diego, CA</div>                 ')[0];
+                popup_f12cd58900c443f885a3613a450b3c91.setContent(html_632b2920c4d446a2ae01c9127d44f126);
+            
+
+            circle_marker_5dfb3a4f54c64b28a17cee02841c9e56.bindPopup(popup_f12cd58900c443f885a3613a450b3c91);
+
+            
+        
+        
+            
+
+            var circle_marker_71561e23a688464c82072bd672d776a2 = L.circle(
+                [30.267153,-97.7430608],
+                137649.440322,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_5c26a6df6f2c4237a996b3972f674382 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e2381f4975d47768c941ae65c4c2a74 = $('         <div id="html_3e2381f4975d47768c941ae65c4c2a74"                 style="width: 100.0%; height: 100.0%;">                 Austin, TX</div>                 ')[0];
+                popup_5c26a6df6f2c4237a996b3972f674382.setContent(html_3e2381f4975d47768c941ae65c4c2a74);
+            
+
+            circle_marker_71561e23a688464c82072bd672d776a2.bindPopup(popup_5c26a6df6f2c4237a996b3972f674382);
+
+            
+        
+        
+            
+
+            var circle_marker_9ab271e1518446ce8ad136ac94e7c902 = L.circle(
+                [41.2523634,-95.9979883],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_5129198fb477496e89a159951b9b5b43 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd0b0342d48f4d75bcc2e36d845281f8 = $('         <div id="html_dd0b0342d48f4d75bcc2e36d845281f8"                 style="width: 100.0%; height: 100.0%;">                 Omaha, NE</div>                 ')[0];
+                popup_5129198fb477496e89a159951b9b5b43.setContent(html_dd0b0342d48f4d75bcc2e36d845281f8);
+            
+
+            circle_marker_9ab271e1518446ce8ad136ac94e7c902.bindPopup(popup_5129198fb477496e89a159951b9b5b43);
+
+            
+        
+        
+            
+
+            var circle_marker_88510fc0e51644e89153d04c7077245e = L.circle(
+                [37.4418834,-122.1430195],
+                97332.8526785,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_90d61a6ed04a41a69f8236e28afd48a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_4a7877b2171a479e8713068d44754a11 = $('         <div id="html_4a7877b2171a479e8713068d44754a11"                 style="width: 100.0%; height: 100.0%;">                 Palo Alto, CA</div>                 ')[0];
+                popup_90d61a6ed04a41a69f8236e28afd48a4.setContent(html_4a7877b2171a479e8713068d44754a11);
+            
+
+            circle_marker_88510fc0e51644e89153d04c7077245e.bindPopup(popup_90d61a6ed04a41a69f8236e28afd48a4);
+
+            
+        
+        
+            
+
+            var circle_marker_3cfde321462042048cfbade79de61e2b = L.circle(
+                [-1.9705786,30.1044288],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_6793cf93bc464b3b9ddbc1b953ba182f = L.popup({maxWidth: '300'});
+
+            
+                var html_3b44b110b7a74bcf9a3f401510760953 = $('         <div id="html_3b44b110b7a74bcf9a3f401510760953"                 style="width: 100.0%; height: 100.0%;">                 Kigali, Rwanda</div>                 ')[0];
+                popup_6793cf93bc464b3b9ddbc1b953ba182f.setContent(html_3b44b110b7a74bcf9a3f401510760953);
+            
+
+            circle_marker_3cfde321462042048cfbade79de61e2b.bindPopup(popup_6793cf93bc464b3b9ddbc1b953ba182f);
+
+            
+        
+        
+            
+
+            var circle_marker_c16740c7ddce451f84cdebd9aa3193c0 = L.circle(
+                [50.0755381,14.4378005],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_ce00c7ce4fae48a39efa7e486c4352c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc16118132d34588ba7279a6834e6d0f = $('         <div id="html_fc16118132d34588ba7279a6834e6d0f"                 style="width: 100.0%; height: 100.0%;">                 Prague, Czech Republic</div>                 ')[0];
+                popup_ce00c7ce4fae48a39efa7e486c4352c0.setContent(html_fc16118132d34588ba7279a6834e6d0f);
+            
+
+            circle_marker_c16740c7ddce451f84cdebd9aa3193c0.bindPopup(popup_ce00c7ce4fae48a39efa7e486c4352c0);
+
+            
+        
+        
+            
+
+            var circle_marker_3eeca13f4fd14f958bb073a03ffffdd0 = L.circle(
+                [27.950575,-82.4571776],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_d3e2085870b34b71ae30494e60e751b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_d08d177401a0418b9d0984bf3c81668d = $('         <div id="html_d08d177401a0418b9d0984bf3c81668d"                 style="width: 100.0%; height: 100.0%;">                 Tampa, FL</div>                 ')[0];
+                popup_d3e2085870b34b71ae30494e60e751b7.setContent(html_d08d177401a0418b9d0984bf3c81668d);
+            
+
+            circle_marker_3eeca13f4fd14f958bb073a03ffffdd0.bindPopup(popup_d3e2085870b34b71ae30494e60e751b7);
+
+            
+        
+        
+            
+
+            var circle_marker_429bd383e0884d5a9c71e1a3cd0fcab2 = L.circle(
+                [39.9611755,-82.9987942],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_cb21d22235524a64a35eb2460653a697 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6376c1b421d4f179b8f118237dc001b = $('         <div id="html_b6376c1b421d4f179b8f118237dc001b"                 style="width: 100.0%; height: 100.0%;">                 Columbus, OH</div>                 ')[0];
+                popup_cb21d22235524a64a35eb2460653a697.setContent(html_b6376c1b421d4f179b8f118237dc001b);
+            
+
+            circle_marker_429bd383e0884d5a9c71e1a3cd0fcab2.bindPopup(popup_cb21d22235524a64a35eb2460653a697);
+
+            
+        
+        
+            
+
+            var circle_marker_d56b7cb614a2493e99e14b5653c4028e = L.circle(
+                [42.0450722,-87.6876969],
+                119207.912136,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_b854c298dcdf41d4bd39cced902b15f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_ffc3a1b69ed9440da1bb08ac4c043de9 = $('         <div id="html_ffc3a1b69ed9440da1bb08ac4c043de9"                 style="width: 100.0%; height: 100.0%;">                 Evanston, IL</div>                 ')[0];
+                popup_b854c298dcdf41d4bd39cced902b15f6.setContent(html_ffc3a1b69ed9440da1bb08ac4c043de9);
+            
+
+            circle_marker_d56b7cb614a2493e99e14b5653c4028e.bindPopup(popup_b854c298dcdf41d4bd39cced902b15f6);
+
+            
+        
+        
+            
+
+            var circle_marker_eadde57979844ac2b2b5bfe392642de5 = L.circle(
+                [47.6587802,-117.4260466],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_26f5418082b64e349204c337db89e268 = L.popup({maxWidth: '300'});
+
+            
+                var html_fa99a59bc9664cd8abcb54c3ceb06798 = $('         <div id="html_fa99a59bc9664cd8abcb54c3ceb06798"                 style="width: 100.0%; height: 100.0%;">                 Spokane, WA</div>                 ')[0];
+                popup_26f5418082b64e349204c337db89e268.setContent(html_fa99a59bc9664cd8abcb54c3ceb06798);
+            
+
+            circle_marker_eadde57979844ac2b2b5bfe392642de5.bindPopup(popup_26f5418082b64e349204c337db89e268);
+
+            
+        
+        
+            
+
+            var circle_marker_6c6f8de408c64a3eae578d1dd8445ac3 = L.circle(
+                [33.7489954,-84.3879824],
+                97332.8526785,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_a5c4b9570f3b4b3791c7c871d6ac2994 = L.popup({maxWidth: '300'});
+
+            
+                var html_f700b59e415748f29f6beea9ac0d1d93 = $('         <div id="html_f700b59e415748f29f6beea9ac0d1d93"                 style="width: 100.0%; height: 100.0%;">                 Atlanta, GA</div>                 ')[0];
+                popup_a5c4b9570f3b4b3791c7c871d6ac2994.setContent(html_f700b59e415748f29f6beea9ac0d1d93);
+            
+
+            circle_marker_6c6f8de408c64a3eae578d1dd8445ac3.bindPopup(popup_a5c4b9570f3b4b3791c7c871d6ac2994);
+
+            
+        
+        
+            
+
+            var circle_marker_d53d64f14de448e5930d3fc4aec63d35 = L.circle(
+                [51.5073509,-0.1277583],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_70acc4a09fe648a4a19d9b574f7fdfcb = L.popup({maxWidth: '300'});
+
+            
+                var html_14f5c33f86654fc48e8197b47d895623 = $('         <div id="html_14f5c33f86654fc48e8197b47d895623"                 style="width: 100.0%; height: 100.0%;">                 London, UK</div>                 ')[0];
+                popup_70acc4a09fe648a4a19d9b574f7fdfcb.setContent(html_14f5c33f86654fc48e8197b47d895623);
+            
+
+            circle_marker_d53d64f14de448e5930d3fc4aec63d35.bindPopup(popup_70acc4a09fe648a4a19d9b574f7fdfcb);
+
+            
+        
+        
+            
+
+            var circle_marker_dd69cc2f6d4d439dbb87bebcc2c8a705 = L.circle(
+                [33.4483771,-112.0740373],
+                119207.912136,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_3d8f02b2ea0e417e9c1ac1e023cefd91 = L.popup({maxWidth: '300'});
+
+            
+                var html_a764d92e00cd4ffda44bc1fca38d4a08 = $('         <div id="html_a764d92e00cd4ffda44bc1fca38d4a08"                 style="width: 100.0%; height: 100.0%;">                 Phoenix, AZ</div>                 ')[0];
+                popup_3d8f02b2ea0e417e9c1ac1e023cefd91.setContent(html_a764d92e00cd4ffda44bc1fca38d4a08);
+            
+
+            circle_marker_dd69cc2f6d4d439dbb87bebcc2c8a705.bindPopup(popup_3d8f02b2ea0e417e9c1ac1e023cefd91);
+
+            
+        
+        
+            
+
+            var circle_marker_f4cd22efd40a4ad888ddf35de7c522d0 = L.circle(
+                [40.7607793,-111.8910474],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_28b08d9281d7422ea7b629949303866d = L.popup({maxWidth: '300'});
+
+            
+                var html_b2ce53e8391942d9b7b0b8e8c8b5f2fc = $('         <div id="html_b2ce53e8391942d9b7b0b8e8c8b5f2fc"                 style="width: 100.0%; height: 100.0%;">                 Salt Lake City, UT</div>                 ')[0];
+                popup_28b08d9281d7422ea7b629949303866d.setContent(html_b2ce53e8391942d9b7b0b8e8c8b5f2fc);
+            
+
+            circle_marker_f4cd22efd40a4ad888ddf35de7c522d0.bindPopup(popup_28b08d9281d7422ea7b629949303866d);
+
+            
+        
+        
+            
+
+            var circle_marker_24913f6413744ae88dfda228244ddd2e = L.circle(
+                [37.36883,-122.0363496],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_62875d227e404823b0a71e32f4666771 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8f1a4f41750495196731383f00acc2e = $('         <div id="html_e8f1a4f41750495196731383f00acc2e"                 style="width: 100.0%; height: 100.0%;">                 Sunnyvale, CA</div>                 ')[0];
+                popup_62875d227e404823b0a71e32f4666771.setContent(html_e8f1a4f41750495196731383f00acc2e);
+            
+
+            circle_marker_24913f6413744ae88dfda228244ddd2e.bindPopup(popup_62875d227e404823b0a71e32f4666771);
+
+            
+        
+        
+            
+
+            var circle_marker_be6c1672699a4a7fa15aa040f10949d3 = L.circle(
+                [47.6062095,-122.3320708],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_0e8bba7ffe1a4cec951c1f00c071d8e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_6ba78a0053474dacacc31d058f854cd9 = $('         <div id="html_6ba78a0053474dacacc31d058f854cd9"                 style="width: 100.0%; height: 100.0%;">                 Seattle, WA</div>                 ')[0];
+                popup_0e8bba7ffe1a4cec951c1f00c071d8e6.setContent(html_6ba78a0053474dacacc31d058f854cd9);
+            
+
+            circle_marker_be6c1672699a4a7fa15aa040f10949d3.bindPopup(popup_0e8bba7ffe1a4cec951c1f00c071d8e6);
+
+            
+        
+        
+            
+
+            var circle_marker_6390f9a1ef8844c1b1031c7c30a36cac = L.circle(
+                [29.7604267,-95.3698028],
+                97332.8526785,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_f05dc55c4e7342ea89e950a12676deee = L.popup({maxWidth: '300'});
+
+            
+                var html_9150b011448a4040b0f17ba9752536e5 = $('         <div id="html_9150b011448a4040b0f17ba9752536e5"                 style="width: 100.0%; height: 100.0%;">                 Houston, TX</div>                 ')[0];
+                popup_f05dc55c4e7342ea89e950a12676deee.setContent(html_9150b011448a4040b0f17ba9752536e5);
+            
+
+            circle_marker_6390f9a1ef8844c1b1031c7c30a36cac.bindPopup(popup_f05dc55c4e7342ea89e950a12676deee);
+
+            
+        
+        
+            
+
+            var circle_marker_096abb895e7a4c57903741b74acc1d8c = L.circle(
+                [37.831316,-122.2852473],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_71f499c5b5914eeeac8ccf581e94d7e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_787717b2e8814925ad79c29b3972278e = $('         <div id="html_787717b2e8814925ad79c29b3972278e"                 style="width: 100.0%; height: 100.0%;">                 Emeryville, CA</div>                 ')[0];
+                popup_71f499c5b5914eeeac8ccf581e94d7e9.setContent(html_787717b2e8814925ad79c29b3972278e);
+            
+
+            circle_marker_096abb895e7a4c57903741b74acc1d8c.bindPopup(popup_71f499c5b5914eeeac8ccf581e94d7e9);
+
+            
+        
+        
+            
+
+            var circle_marker_d4448500d9f24012b76099376791ba70 = L.circle(
+                [37.8043637,-122.2711137],
+                97332.8526785,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_fb7ec183d9794092b40dcc473eaba7c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_2177a1de566a406f99e2080e40d7e6ff = $('         <div id="html_2177a1de566a406f99e2080e40d7e6ff"                 style="width: 100.0%; height: 100.0%;">                 Oakland, CA</div>                 ')[0];
+                popup_fb7ec183d9794092b40dcc473eaba7c3.setContent(html_2177a1de566a406f99e2080e40d7e6ff);
+            
+
+            circle_marker_d4448500d9f24012b76099376791ba70.bindPopup(popup_fb7ec183d9794092b40dcc473eaba7c3);
+
+            
+        
+        
+            
+
+            var circle_marker_255c52114acf4a5bb9c9f14285d8a04f = L.circle(
+                [34.1808392,-118.3089661],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_b1bfd5fb8b8345089ccacb4f400e28da = L.popup({maxWidth: '300'});
+
+            
+                var html_33ca9641149e468096c0e08a427d2fcf = $('         <div id="html_33ca9641149e468096c0e08a427d2fcf"                 style="width: 100.0%; height: 100.0%;">                 Burbank, CA</div>                 ')[0];
+                popup_b1bfd5fb8b8345089ccacb4f400e28da.setContent(html_33ca9641149e468096c0e08a427d2fcf);
+            
+
+            circle_marker_255c52114acf4a5bb9c9f14285d8a04f.bindPopup(popup_b1bfd5fb8b8345089ccacb4f400e28da);
+
+            
+        
+        
+            
+
+            var circle_marker_254918f190084fdb972dab1f11861904 = L.circle(
+                [39.9525839,-75.1652215],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_28c77941ab284505a64d6da3f84b5f98 = L.popup({maxWidth: '300'});
+
+            
+                var html_dce4eb1f46664e928100d34ad195462f = $('         <div id="html_dce4eb1f46664e928100d34ad195462f"                 style="width: 100.0%; height: 100.0%;">                 Philadelphia, PA</div>                 ')[0];
+                popup_28c77941ab284505a64d6da3f84b5f98.setContent(html_dce4eb1f46664e928100d34ad195462f);
+            
+
+            circle_marker_254918f190084fdb972dab1f11861904.bindPopup(popup_28c77941ab284505a64d6da3f84b5f98);
+
+            
+        
+        
+            
+
+            var circle_marker_715edc076cc44b749267482243f8e717 = L.circle(
+                [32.2217429,-110.926479],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_59f06294190846f0adc9293b479bceed = L.popup({maxWidth: '300'});
+
+            
+                var html_8a816b1d26ee436d8284c51abfab7852 = $('         <div id="html_8a816b1d26ee436d8284c51abfab7852"                 style="width: 100.0%; height: 100.0%;">                 Tucson, AZ</div>                 ')[0];
+                popup_59f06294190846f0adc9293b479bceed.setContent(html_8a816b1d26ee436d8284c51abfab7852);
+            
+
+            circle_marker_715edc076cc44b749267482243f8e717.bindPopup(popup_59f06294190846f0adc9293b479bceed);
+
+            
+        
+        
+            
+
+            var circle_marker_1614bd838c9141e8862a4987f9db5916 = L.circle(
+                [-23.5505199,-46.6333094],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_7b3c957a6dfd46088197fb190d6535b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b3f0f4ff78a44ab8fe5b9e1e518cac4 = $('         <div id="html_4b3f0f4ff78a44ab8fe5b9e1e518cac4"                 style="width: 100.0%; height: 100.0%;">                 São Paulo, Brazil</div>                 ')[0];
+                popup_7b3c957a6dfd46088197fb190d6535b7.setContent(html_4b3f0f4ff78a44ab8fe5b9e1e518cac4);
+            
+
+            circle_marker_1614bd838c9141e8862a4987f9db5916.bindPopup(popup_7b3c957a6dfd46088197fb190d6535b7);
+
+            
+        
+        
+            
+
+            var circle_marker_4499df8474464c86a8e3dd2cdf3f5c1e = L.circle(
+                [42.3736158,-71.1097335],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_d75ed8f14c224bec9f5069f5a922b177 = L.popup({maxWidth: '300'});
+
+            
+                var html_27439c22e12545ad84eed60da1331fe7 = $('         <div id="html_27439c22e12545ad84eed60da1331fe7"                 style="width: 100.0%; height: 100.0%;">                 Cambridge, MA</div>                 ')[0];
+                popup_d75ed8f14c224bec9f5069f5a922b177.setContent(html_27439c22e12545ad84eed60da1331fe7);
+            
+
+            circle_marker_4499df8474464c86a8e3dd2cdf3f5c1e.bindPopup(popup_d75ed8f14c224bec9f5069f5a922b177);
+
+            
+        
+        
+            
+
+            var circle_marker_2b5d2148f9e6480d9b079599dce84513 = L.circle(
+                [43.653226,-79.3831843],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_9bf33d37399d48c890405948db11334f = L.popup({maxWidth: '300'});
+
+            
+                var html_b58ab09a113f44e9a8036cab043cef54 = $('         <div id="html_b58ab09a113f44e9a8036cab043cef54"                 style="width: 100.0%; height: 100.0%;">                 Toronto, Canada</div>                 ')[0];
+                popup_9bf33d37399d48c890405948db11334f.setContent(html_b58ab09a113f44e9a8036cab043cef54);
+            
+
+            circle_marker_2b5d2148f9e6480d9b079599dce84513.bindPopup(popup_9bf33d37399d48c890405948db11334f);
+
+            
+        
+        
+            
+
+            var circle_marker_b407e6a19ccf4d2ebd66696d6663e2d5 = L.circle(
+                [41.6611277,-91.5301683],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_f17517c04baa4a3c98752bf84a41ef3c = L.popup({maxWidth: '300'});
+
+            
+                var html_1ddda10307b0484fb1d3e6106d43b10e = $('         <div id="html_1ddda10307b0484fb1d3e6106d43b10e"                 style="width: 100.0%; height: 100.0%;">                 Iowa City, IA</div>                 ')[0];
+                popup_f17517c04baa4a3c98752bf84a41ef3c.setContent(html_1ddda10307b0484fb1d3e6106d43b10e);
+            
+
+            circle_marker_b407e6a19ccf4d2ebd66696d6663e2d5.bindPopup(popup_f17517c04baa4a3c98752bf84a41ef3c);
+
+            
+        
+        
+            
+
+            var circle_marker_bba515b5d4b04b60a5b6b345eecd4fd3 = L.circle(
+                [62.3215528,5.6590031],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_33e8b643b63445c591a11f03a2e909b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ad3a86a8faa4683ab275a629e34520d = $('         <div id="html_5ad3a86a8faa4683ab275a629e34520d"                 style="width: 100.0%; height: 100.0%;">                 Sunnmøre, Norway</div>                 ')[0];
+                popup_33e8b643b63445c591a11f03a2e909b1.setContent(html_5ad3a86a8faa4683ab275a629e34520d);
+            
+
+            circle_marker_bba515b5d4b04b60a5b6b345eecd4fd3.bindPopup(popup_33e8b643b63445c591a11f03a2e909b1);
+
+            
+        
+        
+            
+
+            var circle_marker_21a2e088f9e74364a6d7c813ff9bdf01 = L.circle(
+                [-33.4488897,-70.6692655],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_485cf75b34e745a49dccb354147e6381 = L.popup({maxWidth: '300'});
+
+            
+                var html_11a31c97756d4345a6f97bed54b6aff1 = $('         <div id="html_11a31c97756d4345a6f97bed54b6aff1"                 style="width: 100.0%; height: 100.0%;">                 Santiago, Chile</div>                 ')[0];
+                popup_485cf75b34e745a49dccb354147e6381.setContent(html_11a31c97756d4345a6f97bed54b6aff1);
+            
+
+            circle_marker_21a2e088f9e74364a6d7c813ff9bdf01.bindPopup(popup_485cf75b34e745a49dccb354147e6381);
+
+            
+        
+        
+            
+
+            var circle_marker_ae0088ff466240be87b725e81867572e = L.circle(
+                [62.4722284,6.149482],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_730f2ffaa80a49cfbddd1c37a6f193c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_06ad76aa8338402795eb76895d57af92 = $('         <div id="html_06ad76aa8338402795eb76895d57af92"                 style="width: 100.0%; height: 100.0%;">                 Aalesund, Norway</div>                 ')[0];
+                popup_730f2ffaa80a49cfbddd1c37a6f193c1.setContent(html_06ad76aa8338402795eb76895d57af92);
+            
+
+            circle_marker_ae0088ff466240be87b725e81867572e.bindPopup(popup_730f2ffaa80a49cfbddd1c37a6f193c1);
+
+            
+        
+        
+            
+
+            var circle_marker_b14effa5f8594bcb819d1c62e89c38ed = L.circle(
+                [36.1626638,-86.7816016],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_dd04ef719e6a44deae4a9cec9cae4f45 = L.popup({maxWidth: '300'});
+
+            
+                var html_87ea08c36bde4e168a09fb19b19ad641 = $('         <div id="html_87ea08c36bde4e168a09fb19b19ad641"                 style="width: 100.0%; height: 100.0%;">                 Nashville, TN</div>                 ')[0];
+                popup_dd04ef719e6a44deae4a9cec9cae4f45.setContent(html_87ea08c36bde4e168a09fb19b19ad641);
+            
+
+            circle_marker_b14effa5f8594bcb819d1c62e89c38ed.bindPopup(popup_dd04ef719e6a44deae4a9cec9cae4f45);
+
+            
+        
+        
+            
+
+            var circle_marker_db2f433af211401b97a46167740b2363 = L.circle(
+                [68.4384984,17.4272612],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_dde4e35fe5154bd5aec96ab6f6f8f626 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3d57490753f465aa958e35d73fc9fee = $('         <div id="html_d3d57490753f465aa958e35d73fc9fee"                 style="width: 100.0%; height: 100.0%;">                 Narvik, Norway</div>                 ')[0];
+                popup_dde4e35fe5154bd5aec96ab6f6f8f626.setContent(html_d3d57490753f465aa958e35d73fc9fee);
+            
+
+            circle_marker_db2f433af211401b97a46167740b2363.bindPopup(popup_dde4e35fe5154bd5aec96ab6f6f8f626);
+
+            
+        
+        
+            
+
+            var circle_marker_46c3fce7f3ba4d75a1a8c6a725126cd0 = L.circle(
+                [56.162939,10.203921],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_d46b65733a2e49c196c9aa1c2d8fca45 = L.popup({maxWidth: '300'});
+
+            
+                var html_7357089a13bc4d50a7bcf273dc22c6c3 = $('         <div id="html_7357089a13bc4d50a7bcf273dc22c6c3"                 style="width: 100.0%; height: 100.0%;">                 Aarhus, Denmark</div>                 ')[0];
+                popup_d46b65733a2e49c196c9aa1c2d8fca45.setContent(html_7357089a13bc4d50a7bcf273dc22c6c3);
+            
+
+            circle_marker_46c3fce7f3ba4d75a1a8c6a725126cd0.bindPopup(popup_d46b65733a2e49c196c9aa1c2d8fca45);
+
+            
+        
+        
+            
+
+            var circle_marker_857701e679cf4ec0aac723c28a5d09be = L.circle(
+                [68.1838070134,13.6560058594],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_5c3db31675544cc68962a1b9d9d47669 = L.popup({maxWidth: '300'});
+
+            
+                var html_1ee588168e21425e8f5a55ceae4c2dcf = $('         <div id="html_1ee588168e21425e8f5a55ceae4c2dcf"                 style="width: 100.0%; height: 100.0%;">                 Lofoten, Norway</div>                 ')[0];
+                popup_5c3db31675544cc68962a1b9d9d47669.setContent(html_1ee588168e21425e8f5a55ceae4c2dcf);
+            
+
+            circle_marker_857701e679cf4ec0aac723c28a5d09be.bindPopup(popup_5c3db31675544cc68962a1b9d9d47669);
+
+            
+        
+        
+            
+
+            var circle_marker_91449f04515a4271961d9e1b8d88c3a7 = L.circle(
+                [36.1699412,-115.1398296],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_6e87d2ae2a364ead8595472cda850c8c = L.popup({maxWidth: '300'});
+
+            
+                var html_880b3bc23af34d158fed212f90a477da = $('         <div id="html_880b3bc23af34d158fed212f90a477da"                 style="width: 100.0%; height: 100.0%;">                 Las Vegas, NV</div>                 ')[0];
+                popup_6e87d2ae2a364ead8595472cda850c8c.setContent(html_880b3bc23af34d158fed212f90a477da);
+            
+
+            circle_marker_91449f04515a4271961d9e1b8d88c3a7.bindPopup(popup_6e87d2ae2a364ead8595472cda850c8c);
+
+            
+        
+        
+            
+
+            var circle_marker_715aa457872c44a4b0ecf4322756b9cb = L.circle(
+                [39.0997265,-94.5785667],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_328876cae94343fa877d970d65c9238a = L.popup({maxWidth: '300'});
+
+            
+                var html_8e34be686f884b7dae255c77c01eb834 = $('         <div id="html_8e34be686f884b7dae255c77c01eb834"                 style="width: 100.0%; height: 100.0%;">                 Kansas City, MO</div>                 ')[0];
+                popup_328876cae94343fa877d970d65c9238a.setContent(html_8e34be686f884b7dae255c77c01eb834);
+            
+
+            circle_marker_715aa457872c44a4b0ecf4322756b9cb.bindPopup(popup_328876cae94343fa877d970d65c9238a);
+
+            
+        
+        
+            
+
+            var circle_marker_8049e8f53dce4857abc2db859ba32ed9 = L.circle(
+                [37.831316,-122.2852473],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_b18c3119ee21438aac5f7c80261bbded = L.popup({maxWidth: '300'});
+
+            
+                var html_43e1be2dab8f400d850d338a2a7bc394 = $('         <div id="html_43e1be2dab8f400d850d338a2a7bc394"                 style="width: 100.0%; height: 100.0%;">                 Emoryville, CA</div>                 ')[0];
+                popup_b18c3119ee21438aac5f7c80261bbded.setContent(html_43e1be2dab8f400d850d338a2a7bc394);
+            
+
+            circle_marker_8049e8f53dce4857abc2db859ba32ed9.bindPopup(popup_b18c3119ee21438aac5f7c80261bbded);
+
+            
+        
+        
+            
+
+            var circle_marker_2b6ad21bcbed491885a467348f062da0 = L.circle(
+                [32.7766642,-96.7969879],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_9e8e917cfe7c410eae53c0452e1eeebc = L.popup({maxWidth: '300'});
+
+            
+                var html_5a3569c1f56c4a6a8a65b39f1c43a731 = $('         <div id="html_5a3569c1f56c4a6a8a65b39f1c43a731"                 style="width: 100.0%; height: 100.0%;">                 Dallas, TX</div>                 ')[0];
+                popup_9e8e917cfe7c410eae53c0452e1eeebc.setContent(html_5a3569c1f56c4a6a8a65b39f1c43a731);
+            
+
+            circle_marker_2b6ad21bcbed491885a467348f062da0.bindPopup(popup_9e8e917cfe7c410eae53c0452e1eeebc);
+
+            
+        
+        
+            
+
+            var circle_marker_72339e52174541c6a5068675f5b2d618 = L.circle(
+                [39.165325,-86.5263857],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_7c69be2fdd584e46b18114859608c052 = L.popup({maxWidth: '300'});
+
+            
+                var html_c358fac76e4d4a2ca126795d4d425e00 = $('         <div id="html_c358fac76e4d4a2ca126795d4d425e00"                 style="width: 100.0%; height: 100.0%;">                 Bloomington, IN</div>                 ')[0];
+                popup_7c69be2fdd584e46b18114859608c052.setContent(html_c358fac76e4d4a2ca126795d4d425e00);
+            
+
+            circle_marker_72339e52174541c6a5068675f5b2d618.bindPopup(popup_7c69be2fdd584e46b18114859608c052);
+
+            
+        
+        
+            
+
+            var circle_marker_2748b95b8dd4435fb8f8de8e5b255cb6 = L.circle(
+                [52.5200066,13.404954],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_60e59c7255e949f59f2b2baf0a5ede80 = L.popup({maxWidth: '300'});
+
+            
+                var html_252a6ad35fec4a3ab900d38924e6c7d0 = $('         <div id="html_252a6ad35fec4a3ab900d38924e6c7d0"                 style="width: 100.0%; height: 100.0%;">                 Berlin, Germany</div>                 ')[0];
+                popup_60e59c7255e949f59f2b2baf0a5ede80.setContent(html_252a6ad35fec4a3ab900d38924e6c7d0);
+            
+
+            circle_marker_2748b95b8dd4435fb8f8de8e5b255cb6.bindPopup(popup_60e59c7255e949f59f2b2baf0a5ede80);
+
+            
+        
+        
+            
+
+            var circle_marker_3721ab18cb29456daa4f3dc4b43c8707 = L.circle(
+                [33.7700504,-118.1937395],
+                68824.7201612,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.25
+                    }
+                )
+                .addTo(map_90da4f3e26ec48c3af468bb5d27c8f19);
+            
+        
+            
+            var popup_516920db15774edc8fcdc9b47ee0ef64 = L.popup({maxWidth: '300'});
+
+            
+                var html_affcbea2fbbf445f9690299ab65b5090 = $('         <div id="html_affcbea2fbbf445f9690299ab65b5090"                 style="width: 100.0%; height: 100.0%;">                 Long Beach, CA</div>                 ')[0];
+                popup_516920db15774edc8fcdc9b47ee0ef64.setContent(html_affcbea2fbbf445f9690299ab65b5090);
+            
+
+            circle_marker_3721ab18cb29456daa4f3dc4b43c8707.bindPopup(popup_516920db15774edc8fcdc9b47ee0ef64);
+
+            
+        
+        
+        
+        </script>
+        
