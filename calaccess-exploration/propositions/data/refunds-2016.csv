@@ -1,0 +1,41 @@
+id,line_item,payee_code,payee_committee_id,payee_title,payee_lastname,payee_firstname,payee_name_suffix,payee_city,payee_state,payee_zip,treasurer_title,treasurer_lastname,treasurer_firstname,treasurer_name_suffix,treasurer_city,treasurer_state,treasurer_zip,payment_code,payment_description,amount,cumulative_ytd_amount,expense_date,check_number,support_oppose_code,ballot_measure_jurisdiction,ballot_measure_name,ballot_measure_num,candidate_title,candidate_lastname,candidate_firstname,candidate_name_suffix,candidate_jurisdiction_code,candidate_jurisdiction_description,candidate_district,office_sought_held,office_code,office_description,transaction_id,memo_reference_number,filing_id
+67637580,3,IND,,,FOX,PEGGY,,CARMICHAEL,CA,95608-4013,,,,,,,,RFD,,225.0,0.0,,,,,,,,,,,,,,,,,VSGES9VYBJ4,,2129306
+67637583,6,IND,,,RICO,STELLA,,RANCHO SANTA MARGARITA,CA,92688-1034,,,,,,,,RFD,,217.5,0.0,,,,,,,,,,,,,,,,,VSGES9W0HH6,,2129306
+67637584,7,IND,,,ROSENFIELD,SARA,,FOLSOM,CA,95630-6541,,,,,,,,RFD,,130.0,0.0,,,,,,,,,,,,,,,,,VSGES9VYBQ3,,2129306
+67637585,8,IND,,,SMITH,TAD,,HENDERSON,NV,89053-0751,,,,,,,,RFD,,185.0,0.0,,,,,,,,,,,,,,,,,VSGES9VYBG8,,2129306
+67637586,9,OTH,,,STATE OF CALIFORNIA GENERAL FUND,,,SACRAMENTO,CA,95814-5701,,,,,,,,RFD,,1014.5,0.0,,,,,,,,,,,,,,,,,VSGES9VYBN8,,2129306
+67637587,10,OTH,,,STATE OF CALIFORNIA GENERAL FUND,,,SACRAMENTO,CA,95814-5701,,,,,,,,RFD,,130.0,0.0,,,,,,,,,,,,,,,,,VSGES9VYBP6,,2129306
+67637588,11,OTH,,,STATE OF CALIFORNIA GENERAL FUND,,,SACRAMENTO,CA,95814-5701,,,,,,,,RFD,,370.0,0.0,,,,,,,,,,,,,,,,,VSGES9W0HJ4,,2129306
+68519289,1,,,,STEARNS,ELIZABETH,,CAPITOLA,CA,95010,,,,,,,,RFD,No employer info,100.0,0.0,,,,,,,,,,,,,,,,,613,,1979246
+68519290,2,,,,HEICH,CLING-YI,,SUNNYVALE,CA,940867547,,,,,,,,RFD,No employer info,100.0,0.0,,,,,,,,,,,,,,,,,614,,1979246
+68519291,3,,,,ERNY,GREGORY,,APTOS,CA,950035504,,,,,,,,RFD,No employer info,100.0,0.0,,,,,,,,,,,,,,,,,615,,1979246
+68519292,4,,,,BEVIS,PATRICIA,,REDONDO BEACH,CA,90277,,,,,,,,RFD,No employer info,100.0,0.0,,,,,,,,,,,,,,,,,616,,1979246
+68530679,11,,,,ROBARTS,MICHAEL,,LOS ANGELES,CA,90064,,,,,,,,RFD,,100.0,0.0,,,,,,,,,,,,,,,,,126,,1997835
+68530678,10,,,,PARRIS,WILLIAM,,SANTA BARBARA,CA,931013011,,,,,,,,RFD,,100.0,0.0,,,,,,,,,,,,,,,,,125,,1997835
+68530680,12,,,,FEDER,PAUL,,ATHERTON,CA,94027,,,,,,,,RFD,,100.0,0.0,,,,,,,,,,,,,,,,,127,,1997835
+68530683,3,,,,MAYERS,AARON,,LA HONDA,CA,94020,,,,,,,,RFD,,100.0,0.0,,,,,,,,,,,,,,,,,118,,1997835
+68530684,4,,,,SMITH,ADRIENNE,,SANTA BARBARA,CA,93101,,,,,,,,RFD,,100.0,0.0,,,,,,,,,,,,,,,,,119,,1997835
+68530685,5,,,,SULLIVAN,ALAN,,KENTFIELD,CA,94904,,,,,,,,RFD,,100.0,0.0,,,,,,,,,,,,,,,,,120,,1997835
+68530686,6,,,,WEST,HERBERT,,SAN ANSELMO,CA,94960,,,,,,,,RFD,,200.0,0.0,,,,,,,,,,,,,,,,,121,,1997835
+68530687,7,,,,SCHOENFELD,JOAN,,BRENTWOOD,CA,94513,,,,,,,,RFD,,100.0,0.0,,,,,,,,,,,,,,,,,122,,1997835
+68530688,8,,,,MCKEOWN,MEREDITH,,SAN FRANCISCO,CA,94114,,,,,,,,RFD,,100.0,0.0,,,,,,,,,,,,,,,,,123,,1997835
+68530689,9,,,,GEORGOPOULUS,THALIA,,SAN FRANCISCO,CA,94114,,,,,,,,RFD,,100.0,0.0,,,,,,,,,,,,,,,,,124,,1997835
+68576648,3,,,,BURGERI,PAUL,,SANTA ROSA,CA,954092752,,,,,,,,RFD,Q4 2015 Refund,186.0,0.0,,,,,,,,,,,,,,,,,151,,2036255
+68576649,4,,,,STEPHENS,GABRIEL,,SEBASTOPOL,CA,954724703,,,,,,,,RFD,Q4 2015 Refund,155.0,0.0,,,,,,,,,,,,,,,,,152,,2036255
+68576650,5,,,,JOHNSTONE,MATT,,REDWOOD CITY,CA,940622743,,,,,,,,RFD,Q4 2015 Refund,155.0,0.0,,,,,,,,,,,,,,,,,153,,2036255
+68576651,6,,,,FISHMAN,PETE,,SAN FRANCISCO,CA,941152434,,,,,,,,RFD,Q4 2015 Refund,135.0,0.0,,,,,,,,,,,,,,,,,154,,2036255
+68576652,7,,,,FERNALD LOFT,SARAH,,NAPA,CA,945584809,,,,,,,,RFD,Q4 2015 Refund,132.0,0.0,,,,,,,,,,,,,,,,,155,,2036255
+68576653,8,,,,BOYNTON,MARK,,SANTA CRUZ,CA,950625333,,,,,,,,RFD,Q4 2015 Refund,125.0,0.0,,,,,,,,,,,,,,,,,156,,2036255
+68576654,9,,,,WADDING,MELANIE,,PASADENA,CA,911074518,,,,,,,,RFD,Q4 2015 Refund,125.0,0.0,,,,,,,,,,,,,,,,,157,,2036255
+68576655,10,,,,TROUD,JACK,,NOVATO,CA,949472020,,,,,,,,RFD,Q4 2015 Refund,125.0,0.0,,,,,,,,,,,,,,,,,158,,2036255
+68576656,11,,,,SNOW,GENE,,SAN FRANCISCO,CA,941332538,,,,,,,,RFD,Q1 2016 Refund,120.0,0.0,,,,,,,,,,,,,,,,,159,,2036255
+68576657,12,,,,BEST,NATE,,REDDING,CA,960012202,,,,,,,,RFD,Q4 2015 Refund,120.0,0.0,,,,,,,,,,,,,,,,,160,,2036255
+68576658,13,,,,CORNWELL,MOLLY,,SHERMAN OAKS,CA,914034404,,,,,,,,RFD,Q4 2015 Refund,110.0,0.0,,,,,,,,,,,,,,,,,161,,2036255
+68576659,14,,,,SPALDING,WAYNE,,FREMONT,CA,945366631,,,,,,,,RFD,Q4 2015 Refund,105.0,0.0,,,,,,,,,,,,,,,,,162,,2036255
+68576660,15,,,,HOVSEPIAN,ARAKS,,NORTH HOLLYWOOD,CA,916052641,,,,,,,,RFD,Q4 2015 Refund,100.0,0.0,,,,,,,,,,,,,,,,,163,,2036255
+68576661,16,,,,GATES,DAVID,,WALNUT GROVE,CA,956900807,,,,,,,,RFD,Q4 2015 Refund,100.0,0.0,,,,,,,,,,,,,,,,,164,,2036255
+68576662,17,,,,FENG,JIAYI,,SAN FRANCISCO,CA,941023383,,,,,,,,RFD,Q4 2015 Refund,100.0,0.0,,,,,,,,,,,,,,,,,165,,2036255
+68576663,18,,,,PEEPLES,VIRENIA,,TOPANGA,CA,90290,,,,,,,,RFD,Q4 2015 Refund,100.0,0.0,,,,,,,,,,,,,,,,,166,,2036255
+68576664,19,,,,LUEHM,WILLIAM,,LA QUINTA,CA,922532193,,,,,,,,RFD,Q4 2015 Refund,100.0,0.0,,,,,,,,,,,,,,,,,167,,2036255
+68576665,20,,,,MCDONALD,KATHRYN,,DEL MAR,CA,920145976,,,,,,,,RFD,Q4 2015 Refund,100.0,0.0,,,,,,,,,,,,,,,,,168,,2036255
+68576666,21,,,,ORR,ELIZABETH,,SAN DIEGO,CA,92126,,,,,,,,RFD,Q4 2015 Refund,250.0,0.0,,,,,,,,,,,,,,,,,169,,2036255
